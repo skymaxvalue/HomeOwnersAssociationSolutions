@@ -1,0 +1,301 @@
+<div class="loader-bg">
+    <div class="loader-track">
+    <div class="loader-fill"></div>
+    </div>
+    </div>
+    
+    
+    <nav class="pc-sidebar">
+    <div class="navbar-wrapper">
+    <div class="m-header">
+    <a href="#" class="b-brand text-primary">
+    <img style="height: 100px;width: 100px;" src="assets/images/parkinglogo.svg" alt class="logo logo-lg">
+    </a>
+    </div>
+
+<!-- menu.component.html -->
+<div class="navbar-content">
+  <ul class="pc-navbar">
+    <li class="pc-item pc-hasmenu" *ngFor="let menu of menus">
+      <a class="pc-link">
+        <span class="pc-micon"><i class="{{ menu.iconClass }}"></i></span>
+        <span class="pc-mtext">{{ menu.label }}</span>
+        <span class="pc-arrow"><i class="fas fa-chevron-right"></i></span>
+      </a>
+      <ul class="pc-submenu" *ngIf="menu.submenu">
+        <li class="pc-item" *ngFor="let subItem of menu.submenu">
+          <a class="pc-link" [href]="subItem.url">{{ subItem.subMenuName }}</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+    </div>
+    </nav>
+     
+    <header class="pc-header">
+    <div class="header-wrapper"> 
+    <div class="me-auto pc-mob-drp">
+    <ul class="list-unstyled">
+    <li class="pc-h-item header-mobile-collapse">
+        <!-- href="#" -->
+    <a  class="pc-head-link head-link-secondary ms-0" id="sidebar-hide">
+    <i class="ti ti-menu-2"></i>
+    </a>
+    </li>
+    <li class="pc-h-item pc-sidebar-popup">
+    <a href="#" class="pc-head-link head-link-secondary ms-0" id="mobile-collapse">
+    <i class="ti ti-menu-2"></i>
+    </a>
+    </li>
+    <li class="dropdown pc-h-item d-inline-flex d-md-none">
+    <a class="pc-head-link head-link-secondary dropdown-toggle arrow-none m-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+    <i class="ti ti-search"></i>
+    </a>
+    <div class="dropdown-menu pc-h-dropdown drp-search">
+    <form class="px-3">
+    <div class="form-group mb-0 d-flex align-items-center">
+    <i data-feather="search"></i>
+    <input type="search" class="form-control border-0 shadow-none" placeholder="Search here. . .">
+    </div>
+    </form>
+    </div>
+    </li>
+    <li class="pc-h-item d-none d-md-inline-flex">
+   
+    </li>
+    </ul>
+    </div>
+    
+    <div class="ms-auto">
+    <ul class="list-unstyled">
+
+    <li class="dropdown pc-h-item header-user-profile">
+      
+    <a class="pc-head-link head-link-primary dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+    <img [src]="LoggedInUser.userImage" alt="user-image" class="user-avtar">
+    <span>
+    <i class="ti ti-settings"></i>
+    </span>
+    </a>
+    <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
+    <div class="dropdown-header">
+    <h3>Hello, <span class="small text-muted"  >{{LoggedInUser.firstName}} </span></h3>
+    <h5 class="text-muted" > {{LoggedInUser.userRole}}</h5>
+
+    <hr>
+    <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 280px)">
+     <a href="https://miro.com/app/board/uXjVPWV-h58=/"  target="_blank" class="dropdown-item">
+    <i class="ti ti-user"></i>
+    <span>Social Profile</span>
+    </a>
+    <a (click)="LogOut()" class="dropdown-item" >
+    <i class="ti ti-logout"></i>
+    <span>Logout</span>
+    </a>
+    </div>
+    </div>
+    </div>
+    </li>
+    </ul>
+    </div> 
+</div>
+    </header>
+    
+    
+    <div class="pc-container">
+    <div class="pc-content">  
+        <router-outlet></router-outlet>
+        <br>
+
+    </div>
+    </div>
+    
+    <footer class="pc-footer fixed-footer">
+    <div class="footer-wrapper container-fluid">
+    <div class="row">
+    <div class="col-sm-12 my-1">
+    <p class="m-0">All rights reserved Parking Solution</p>
+    </div>
+    </div>
+    </div>
+    </footer> 
+    
+    <div class="pct-c-btn">
+    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvas_pc_layout">
+    <i class="ph-duotone ph-gear-six"></i>
+    </a>
+    </div>
+    <div class="offcanvas border-0 pct-offcanvas offcanvas-end" tabindex="-1" id="offcanvas_pc_layout">
+    <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Theme Customization</h5>
+    <div class="d-inline-flex align-items-center gap-2">
+    <button type="button" class="btn btn-sm rounded btn-outline-danger" id="layoutreset">Reset</button>
+    <a type="button" class="avtar avtar-s btn-link-danger btn-pc-default " data-bs-dismiss="offcanvas" aria-label="Close"><i class="ti ti-x f-20"></i></a>
+    </div>
+    </div>
+    <ul class="nav nav-tabs nav-fill pct-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation" data-bs-toggle="tooltip" title="Layout Settings">
+    <button class="nav-link active" id="pct-1-tab" data-bs-toggle="tab" data-bs-target="#pct-1-tab-pane" type="button" role="tab" aria-controls="pct-1-tab-pane" aria-selected="true"><i class="ti ti-color-swatch"></i></button>
+    </li>
+    <li class="nav-item" role="presentation" data-bs-toggle="tooltip" title="Font Settings">
+    <button class="nav-link" id="pct-2-tab" data-bs-toggle="tab" data-bs-target="#pct-2-tab-pane" type="button" role="tab" aria-controls="pct-2-tab-pane" aria-selected="false"><i class="ti ti-typography"></i></button>
+    </li>
+    </ul>
+    <div class="pct-body customizer-body">
+    <div class="offcanvas-body p-0">
+    <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="pct-1-tab-pane" role="tabpanel" aria-labelledby="pct-1-tab" tabindex="0">
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+    <div class="pc-dark">
+    <div class="d-flex align-items-center">
+    <div class="flex-grow-1 me-3">
+    <h5 class="mb-1">Theme Mode</h5>
+    <p class="text-muted text-sm mb-0">Light / Dark / System</p>
+    </div>
+    <div class="flex-shrink-0">
+    <div class="row g-2 theme-color theme-layout">
+    <div class="col-4">
+    <div class="d-grid">
+    <button class="preset-btn btn active" data-value="true" onclick="layout_change('light');" data-bs-toggle="tooltip" title="Light">
+    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+    </button>
+    </div>
+    </div>
+    <div class="col-4">
+    <div class="d-grid">
+    <button class="preset-btn btn" data-value="false" onclick="layout_change('dark');" data-bs-toggle="tooltip" title="Dark">
+    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+    </button>
+    </div>
+    </div>
+    <div class="col-4">
+    <div class="d-grid">
+    <button class="preset-btn btn" data-value="default" onclick="layout_change_default();" data-bs-toggle="tooltip" title="Automatically sets the theme based on user's operating system's color scheme.">
+    <span class="pc-lay-icon d-flex align-items-center justify-content-center">
+    <i class="ph-duotone ph-cpu"></i>
+    </span>
+    </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+   
+    <li class="list-group-item">
+    <div class="d-flex align-items-center">
+    <div class="flex-grow-1 me-3">
+    <h5 class="mb-1">Sidebar Caption</h5>
+    <p class="text-muted text-sm mb-0">Caption Hide / Show</p>
+    </div>
+    <div class="flex-shrink-0">
+    <div class="row g-2 theme-color theme-nav-caption">
+    <div class="col-6">
+    <div class="d-grid">
+    <button class="preset-btn btn active" data-value="true" onclick="layout_caption_change('true');" data-bs-toggle="tooltip" title="Caption Show">
+    <span class="pc-lay-icon"><span></span><span></span><span><span></span><span></span></span><span></span></span>
+    </button>
+    </div>
+    </div>
+    <div class="col-6">
+    <div class="d-grid">
+    <button class="preset-btn btn" data-value="false" onclick="layout_caption_change('false');" data-bs-toggle="tooltip" title="Caption Hide">
+    <span class="pc-lay-icon"><span></span><span></span><span><span></span><span></span></span><span></span></span>
+    </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li class="list-group-item">
+    <div class="pc-rtl">
+    <div class="d-flex align-items-center">
+    <div class="flex-grow-1 me-3">
+    <h5 class="mb-1">Theme Layout</h5>
+    <p class="text-muted text-sm">LTR/RTL</p>
+    </div>
+    <div class="flex-shrink-0">
+    <div class="row g-2 theme-color theme-direction">
+    <div class="col-6">
+    <div class="d-grid">
+    <button class="preset-btn btn active" data-value="false" onclick="layout_rtl_change('false');" data-bs-toggle="tooltip" title="LTR">
+    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+    </button>
+    </div>
+    </div>
+    <div class="col-6">
+    <div class="d-grid">
+    <button class="preset-btn btn" data-value="true" onclick="layout_rtl_change('true');" data-bs-toggle="tooltip" title="RTL">
+    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+    </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li class="list-group-item pc-box-width">
+    <div class="pc-container-width">
+    <div class="d-flex align-items-center">
+    <div class="flex-grow-1 me-3">
+    <h5 class="mb-1">Layout Width</h5>
+    <p class="text-muted text-sm">Full / Fixed width</p>
+    </div>
+    <div class="flex-shrink-0">
+    <div class="row g-2 theme-color theme-container">
+    <div class="col-6">
+    <div class="d-grid">
+    <button class="preset-btn btn active" data-value="false" onclick="change_box_container('false')" data-bs-toggle="tooltip" title="Full Width">
+    <span class="pc-lay-icon"><span></span><span></span><span></span><span><span></span></span></span>
+    </button>
+    </div>
+    </div>
+    <div class="col-6">
+    <div class="d-grid">
+    <button class="preset-btn btn" data-value="true" onclick="change_box_container('true')" data-bs-toggle="tooltip" title="Fixed Width">
+    <span class="pc-lay-icon"><span></span><span></span><span></span><span><span></span></span></span>
+    </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    </ul>
+    </div>
+    <div class="tab-pane fade" id="pct-2-tab-pane" role="tabpanel" aria-labelledby="pct-2-tab" tabindex="0">
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+    <h5 class="mb-1">Font Style</h5>
+    <p class="text-muted text-sm">Choose theme font</p>
+    <div class="theme-color theme-font-style">
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="layout_font" id="layoutfontRoboto" checked onclick="font_change('Roboto')">
+    <label class="form-check-label" for="layoutfontRoboto"> Roboto </label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="layout_font" id="layoutfontPoppins" onclick="font_change('Poppins')">
+    <label class="form-check-label" for="layoutfontPoppins"> Poppins </label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="layout_font" id="layoutfontInter" onclick="font_change('Inter')">
+    <label class="form-check-label" for="layoutfontInter"> Inter </label>
+    </div>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    

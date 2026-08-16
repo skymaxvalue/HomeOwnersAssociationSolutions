@@ -1,0 +1,62 @@
+<div class="section" *ngIf="CurrentUrlRequest=='MyVechileManagement'">
+    <h6 > Vehicle &nbsp;<i class="ti ti-car"></i>  </h6>
+     <br>
+     <div class="row">
+       <div class="col-sm-2">
+         <label class="label" >Make</label>
+       </div>
+        <div class="col-sm-2">
+           <label class="label">Model</label>
+        </div>
+        <div class="col-sm-2">
+           <label class="label">Colour</label>
+        </div>
+        <div class="col-sm-2">
+           <label class="label">Tag Number</label>
+        </div>
+        <div class="col-sm-2">
+           <label class="label">Vehicle Picture</label>
+        </div>
+      
+     </div>
+     <br>
+     <div class="row">
+       <div class="col-sm-2">
+        <input type="text" class="form-control" [(ngModel)]="vehicleInfo.make">
+       </div>
+        <div class="col-sm-2">
+           <input type="text" class="form-control" [(ngModel)]="vehicleInfo.model">
+        </div>
+        <div class="col-sm-2">
+           <input type="text" class="form-control" [(ngModel)]="vehicleInfo.color">
+        </div>
+        <div class="col-sm-2">
+           <input type="text" class="form-control" [(ngModel)]="vehicleInfo.tagNumber">
+        </div>
+        <div class="col-sm-2">
+         <div class="form-right">
+            <div class="photo-container">
+              <div class="photo-placeholder">
+                <!-- <img *ngIf="vehicleInfo.VehiclePicture" [src]="vehicleInfo.VehiclePicture" alt="Login Picture" />
+                <span *ngIf="!vehicleInfo.VehiclePicture">Photo</span> -->
+              </div>
+              <input type="file" class="form-control" id="photo" name="photo" (change)="onVechilePhotoSelected($event)" class="file-input">
+            </div>
+          </div>
+        </div>
+      
+     </div>
+     <br>
+     <div class="content text-right">
+         <button class="btn btn-primary"  type="submit" (click)="MyProfileHouseOwnerVechileDetailsSave()">Save</button>
+     </div>
+</div>
+ 
+
+<div class="section" *ngIf="CurrentUrlRequest=='MyHouseManagement'">
+
+   <h6 > House Details &nbsp;<i class="ti ti-home"></i>  </h6>
+  
+   <br>
+
+</div>

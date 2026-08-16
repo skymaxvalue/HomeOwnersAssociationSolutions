@@ -1,0 +1,23 @@
+
+
+<div class="row">
+    <div class="col-sm-9"></div>
+    <div class="col-sm-3">
+        <button class="btn btn-primary" (click)="AddTowingParking()">(+) Add Towing Request</button>
+    </div>
+    </div>
+    <br>
+
+<div class="row">
+    <div class="12">
+        <ag-grid-angular class="ag-theme-quartz-auto-dark" style="height: 300px;width:100%" [rowData]="rowData"
+        [columnDefs]="colDefs"
+        [defaultColDef]="defaultColDef"
+        (gridReady)="onGridReady($event)"
+        [pagination]="true"
+        [paginationPageSizeSelector]="[1,5,10,50,100]"
+        >
+
+        </ag-grid-angular>
+    </div>
+</div>

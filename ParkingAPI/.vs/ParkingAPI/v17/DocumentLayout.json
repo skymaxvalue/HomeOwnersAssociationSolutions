@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|f:\\product development\\shv_enterprise_parking_solution\\parkingapi\\parkingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|solutionrelative:parkingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|solutionrelative:parkingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingapi\\parkingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|solutionrelative:parkingapi\\parkingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|solutionrelative:parkingapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B219B57-B7F9-4417-9327-8B99077EFBD6}|ParkingModel\\ParkingModel.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingmodel\\parkingmodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B219B57-B7F9-4417-9327-8B99077EFBD6}|ParkingModel\\ParkingModel.csproj|solutionrelative:parkingmodel\\parkingmodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingapi\\parkingapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|solutionrelative:parkingapi\\parkingapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A71260-4F09-4E34-B6A7-239A062BA15F}|BAL\\BAL.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\bal\\bal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3A71260-4F09-4E34-B6A7-239A062BA15F}|BAL\\BAL.csproj|solutionrelative:bal\\bal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E437C558-FC13-482C-A3AF-AED003C07B3F}|DAL\\DAL.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E437C558-FC13-482C-A3AF-AED003C07B3F}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|solutionrelative:parkingapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E437C558-FC13-482C-A3AF-AED003C07B3F}|DAL\\DAL.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\dal\\helper\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E437C558-FC13-482C-A3AF-AED003C07B3F}|DAL\\DAL.csproj|solutionrelative:dal\\helper\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B219B57-B7F9-4417-9327-8B99077EFBD6}|ParkingModel\\ParkingModel.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingmodel\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B219B57-B7F9-4417-9327-8B99077EFBD6}|ParkingModel\\ParkingModel.csproj|solutionrelative:parkingmodel\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E437C558-FC13-482C-A3AF-AED003C07B3F}|DAL\\DAL.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E437C558-FC13-482C-A3AF-AED003C07B3F}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|solutionrelative:parkingapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\parkingapi\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C410D3-548A-44FC-A602-7950D28E9160}|ParkingAPI\\ParkingAPI.csproj|solutionrelative:parkingapi\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ParkingAPI\\Program.cs",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\Program.cs",
+              "RelativeToolTip": "ParkingAPI\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T19:05:27.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ParkingAPI\\WeatherForecast.cs",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "ParkingAPI\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T19:05:26.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParkingModel",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingModel\\ParkingModel.csproj",
+              "RelativeDocumentMoniker": "ParkingModel\\ParkingModel.csproj",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingModel\\ParkingModel.csproj",
+              "RelativeToolTip": "ParkingModel\\ParkingModel.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T19:05:25.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParkingAPI.http",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\ParkingAPI.http",
+              "RelativeDocumentMoniker": "ParkingAPI\\ParkingAPI.http",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\ParkingAPI.http",
+              "RelativeToolTip": "ParkingAPI\\ParkingAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-14T19:05:19.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BAL",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\BAL\\BAL.csproj",
+              "RelativeDocumentMoniker": "BAL\\BAL.csproj",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\BAL\\BAL.csproj",
+              "RelativeToolTip": "BAL\\BAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T19:05:05.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DAL",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T19:05:02.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParkingAPI",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\ParkingAPI.csproj",
+              "RelativeDocumentMoniker": "ParkingAPI\\ParkingAPI.csproj",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\ParkingAPI.csproj",
+              "RelativeToolTip": "ParkingAPI\\ParkingAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T19:04:55.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ParkingAPI\\appsettings.Development.json",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\appsettings.Development.json",
+              "RelativeToolTip": "ParkingAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T17:57:49.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ParkingAPI\\appsettings.json",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\appsettings.json",
+              "RelativeToolTip": "ParkingAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T17:41:44.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingModel\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "ParkingModel\\SignUpModel.cs",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingModel\\SignUpModel.cs",
+              "RelativeToolTip": "ParkingModel\\SignUpModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:55:51.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SQLHelper.cs",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\DAL\\Helper\\SQLHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\Helper\\SQLHelper.cs",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\DAL\\Helper\\SQLHelper.cs",
+              "RelativeToolTip": "DAL\\Helper\\SQLHelper.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:52:49.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:51:42.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LogInController.cs",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\Controllers\\LogInController.cs",
+              "RelativeDocumentMoniker": "ParkingAPI\\Controllers\\LogInController.cs",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\Controllers\\LogInController.cs",
+              "RelativeToolTip": "ParkingAPI\\Controllers\\LogInController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:50:58.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignUpController.cs",
+              "DocumentMoniker": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\Controllers\\SignUpController.cs",
+              "RelativeDocumentMoniker": "ParkingAPI\\Controllers\\SignUpController.cs",
+              "ToolTip": "F:\\Product development\\SHV_Enterprise_Parking_Solution\\ParkingAPI\\ParkingAPI\\Controllers\\SignUpController.cs",
+              "RelativeToolTip": "ParkingAPI\\Controllers\\SignUpController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:50:41.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

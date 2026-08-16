@@ -1,0 +1,176 @@
+<div class="header" (click)="isCollapsed = !isCollapsed">
+  <span>Profile</span>
+  <i class="ti ti-pencil"></i>
+</div>
+
+<div [ngClass]="{'collapse': !isCollapsed}">
+  <form #customerForm="ngForm" novalidate>
+  
+    <div class="form-container">
+      <div class="form-left">
+        <div class="form-row">
+          <div class="form-group">
+            <input type="hidden"  [(ngModel)]="customer.profileId">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" [(ngModel)]="customer.firstName" required>
+          </div>
+  
+          <div class="form-group">
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName" name="middleName" [(ngModel)]="customer.middleName">
+          </div>
+  
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" [(ngModel)]="customer.lastName" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob" [(ngModel)]="customer.dob" required>
+          </div>
+  
+        
+        </div>
+  
+        <div class="form-row">
+           
+          <div class="form-group">
+            <label for="primaryEmail">Primary Email:</label>
+            <input type="email" id="primaryEmail" name="primaryEmail" disabled [(ngModel)]="customer.primaryEmail" required email>
+          </div>
+
+          <div class="form-group">
+            <label for="secondaryEmail">Secondary Email:</label>
+            <input type="email" id="secondaryEmail" name="secondaryEmail"  [(ngModel)]="customer.secondryEmail" email>
+          </div>
+
+        </div>
+  
+        <div class="form-row">
+        
+  
+          <div class="form-group">
+            <label for="primaryContact">Primary Contact:</label>
+            <input type="text" id="primaryContact" disabled name="primaryContact" [(ngModel)]="customer.primaryContact" required>
+          </div>
+  
+          <div class="form-group">
+            <label for="secondaryContact">Secondary Contact:</label>
+            <input type="text" id="secondaryContact" name="secondaryContact" [(ngModel)]="customer.secondryContact">
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="officeContact">Office Contact:</label>
+          <input type="text" id="officeContact" name="officeContact" [(ngModel)]="customer.officeContact">
+        </div>
+  
+        <div class="form-group">
+          <label for="address">Mailing Address:</label>
+          <textarea id="address" name="address" [(ngModel)]="customer.mailingAddress" required></textarea>
+        </div>
+      </div>
+  
+      <div class="form-right">
+        <div class="photo-container">
+          <div class="photo-placeholder">
+            <img *ngIf="PreviewUrl" [src]="PreviewUrl" alt="Login Picture" />
+            <span *ngIf="!PreviewUrl">Photo</span>
+          </div>
+          <input type="file" id="photo" name="photo" (change)="onPhotoSelected($event)" class="file-input">
+          <button type="button" class="setphotobtn" (click)="triggerFileInput()">Set Photo</button>
+        </div>
+      </div>
+    </div>
+  
+    <div class="form-actions">
+      <button type="submit" (click)="saveProfile(customerForm)">Save</button>
+      
+    </div>
+  </form>
+  
+</div>
+
+
+
+<div class="header" (click)="isTowingCollapsed = !isTowingCollapsed" *appHasRole="'Towing Company'">
+  <span>My Towing Company Details</span>
+  <i class="ti ti-pencil"></i>
+</div>
+
+<div [ngClass]="{'collapse': !isTowingCollapsed}" >
+  <div>My Towing Company Details</div>
+</div>
+
+
+<div class="header" (click)="isHOACollapsed = !isHOACollapsed" *appHasRole="'HOA'">
+  <span>House Owner Association Details</span>
+  <i class="ti ti-pencil"></i>
+</div>
+
+<div [ngClass]="{'collapse': !isHOACollapsed}" >
+  <div>House Owner Association Details</div>
+</div>
+
+<div class="header" (click)="isVCollapsed = !isVCollapsed" *appHasRole="'Customer'">
+  <span>My Vechile Details</span>
+  <i class="ti ti-pencil"></i>
+</div>
+<div [ngClass]="{'collapse': !isVCollapsed}" >
+  <div class="row">
+    <div class="col-sm-9"></div>
+    <div class="col-sm-3">
+        <button class="btn btn-primary" (click)="AddNewVehicle()">(+) Add Vehicle</button>
+    </div>
+    </div>
+  
+    <div class="row">
+        <div class="12">
+            <ag-grid-angular class="ag-theme-quartz-auto-dark" style="height: 300px;width:100%" [rowData]="rowData"
+            [columnDefs]="colDefs"
+            [defaultColDef]="defaultColDef"
+            (gridReady)="onGridReady($event)"
+            [pagination]="true"
+            [paginationPageSizeSelector]="[1,5,10,50,100]"
+            [gridOptions]="gridOptions"
+            >
+    
+            </ag-grid-angular>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="header"(click)="isHOCollapsed = !isHOCollapsed" *appHasRole="'Customer'">
+  <span>My House Details</span>
+  <i class="ti ti-pencil"></i>
+</div>
+
+<div [ngClass]="{'collapse': !isHOCollapsed}" >
+  <div class="row">
+    <div class="col-sm-9"></div>
+    <div class="col-sm-3">
+        <button class="btn btn-primary" (click)="AddNewHouse()">(+) Add New Property </button>
+    </div>
+    </div>
+  
+    <div class="row">
+        <div class="12">
+            <ag-grid-angular class="ag-theme-quartz-auto-dark" style="height: 300px;width:100%" [rowData]="rowData"
+            [columnDefs]="colDefs"
+            [defaultColDef]="defaultColDef"
+            (gridReady)="onGridReady($event)"
+            [pagination]="true"
+            [paginationPageSizeSelector]="[1,5,10,50,100]"
+            [gridOptions]="gridOptions"
+            >
+    
+            </ag-grid-angular>
+        </div>
+    </div>
+</div>
+

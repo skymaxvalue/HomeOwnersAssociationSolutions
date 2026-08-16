@@ -1,0 +1,17 @@
+<!-- sign-up.component.html -->
+
+<div class="container">
+    <!-- <h2>Enter OTP </h2> -->
+    <form>
+      <div class="form-group">
+        <!-- <label for="otp">Enter OTP:</label> -->
+        <input type="text" id="otp" class="form-control" name="otp" placeholder="Enter OTP" [(ngModel)]="SecureOTP" required >
+      </div>
+      <div class="form-group center">
+        <button type="button" class="btn btn-primary" (click)="secureLogin()">Secure Login</button>
+        <button type="button" class="btn btn-secondary" (click)="resendOTP()">Resend</button>
+        <button type="button" class="btn btn-danger" (click)="cancel()">Cancel</button>
+      </div>
+    </form>
+  </div>
+  

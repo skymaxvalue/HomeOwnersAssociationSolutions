@@ -1,0 +1,32 @@
+C:\Git\ParkingAPI\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Git\ParkingAPI\DAL\bin\Debug\net8.0\DAL.dll
+C:\Git\ParkingAPI\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Git\ParkingAPI\DAL\bin\Debug\net8.0\ParkingModel.dll
+C:\Git\ParkingAPI\DAL\bin\Debug\net8.0\ParkingModel.pdb
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.dll
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Git\ParkingAPI\DAL\obj\Debug\net8.0\ref\DAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\bin\Debug\net8.0\DAL.deps.json
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\bin\Debug\net8.0\DAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\bin\Debug\net8.0\DAL.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\bin\Debug\net8.0\ParkingModel.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\bin\Debug\net8.0\ParkingModel.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\refint\DAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\DAL.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\DAL\obj\Debug\net8.0\ref\DAL.dll

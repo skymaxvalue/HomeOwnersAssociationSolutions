@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="form-container">
+      <h2>Login</h2>
+      <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" class="form-control" id="username" name="username" [(ngModel)]="userData.username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" class="form-control" id="password" name="password" [(ngModel)]="userData.password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Login</button>
+          <button type="button" class="btn btn-secondary" (click)="onReset()">Reset</button>
+        </div>
+        <div class="form-group">
+          <a href="#" (click)="openModal('password')">Forgot Password?</a>
+          <span class="parallel-line">|</span>
+          <a href="#" (click)="openModal('username')">Forgot Username?</a>
+        </div>
+      </form>
+      <hr> <!-- Add a horizontal line for separation -->
+      <p class="signup-text" (click)="onSignUp()">Don't have an account? <a href="#" class="signup-link" >Sign Up</a></p>
+      <!-- <button  (click)="onSignUp()">Signup</button> -->
+    </div>
+  </div>
+  
+
+<!-- Forgot Password Modal -->
+<div #forgotPasswordModal class="modal fade" id="forgotPasswordModal" tabindex="-1" role="dialog" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="forgotPasswordModalLabel">Forgot Password</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Forgot password form fields -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Forgot Username Modal -->
+<div #forgotUsernameModal class="modal fade" id="forgotUsernameModal" tabindex="-1" role="dialog" aria-labelledby="forgotUsernameModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="forgotUsernameModalLabel">Forgot Username</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Forgot username form fields -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>

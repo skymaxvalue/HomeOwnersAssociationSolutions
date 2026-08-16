@@ -1,0 +1,36 @@
+C:\Git\ParkingAPI\BAL\bin\Debug\net8.0\BAL.deps.json
+C:\Git\ParkingAPI\BAL\bin\Debug\net8.0\BAL.dll
+C:\Git\ParkingAPI\BAL\bin\Debug\net8.0\BAL.pdb
+C:\Git\ParkingAPI\BAL\bin\Debug\net8.0\DAL.dll
+C:\Git\ParkingAPI\BAL\bin\Debug\net8.0\ParkingModel.dll
+C:\Git\ParkingAPI\BAL\bin\Debug\net8.0\DAL.pdb
+C:\Git\ParkingAPI\BAL\bin\Debug\net8.0\ParkingModel.pdb
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.csproj.AssemblyReference.cache
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.AssemblyInfoInputs.cache
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.AssemblyInfo.cs
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.csproj.CoreCompileInputs.cache
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.sourcelink.json
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.csproj.Up2Date
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.dll
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\refint\BAL.dll
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\BAL.pdb
+C:\Git\ParkingAPI\BAL\obj\Debug\net8.0\ref\BAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\bin\Debug\net8.0\BAL.deps.json
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\bin\Debug\net8.0\BAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\bin\Debug\net8.0\BAL.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\bin\Debug\net8.0\DAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\bin\Debug\net8.0\ParkingModel.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\bin\Debug\net8.0\DAL.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\bin\Debug\net8.0\ParkingModel.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.csproj.AssemblyReference.cache
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.AssemblyInfoInputs.cache
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.AssemblyInfo.cs
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.csproj.CoreCompileInputs.cache
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.sourcelink.json
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.csproj.Up2Date
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\refint\BAL.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\BAL.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\BAL\obj\Debug\net8.0\ref\BAL.dll

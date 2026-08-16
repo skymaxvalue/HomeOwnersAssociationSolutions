@@ -1,0 +1,226 @@
+
+  <div class="container ">
+    <div class="text-right">
+        <span class=" highlight-background ">{{parkingdetails.status}}</span>
+    </div>
+    <br>
+    <div class="section row">
+      <h3 > Vehicle &nbsp;<i class="ti ti-car"></i>  &nbsp; &nbsp;(<i style="color:green;cursor: pointer;" class="ti ti-plus" (click)="ShowUserVehicleList()"></i>)</h3>
+    
+      <div class="row text-center">
+        <div class="col-sm-2">
+          <label class="label" >Make</label>
+        </div>
+         <div class="col-sm-2">
+            <label class="label">Model</label>
+         </div>
+         <div class="col-sm-2">
+            <label class="label">Colour</label>
+         </div>
+         <div class="col-sm-2">
+            <label class="label">Tag</label>
+         </div>
+         <div class="col-sm-2">
+            <label class="label">Vehicle Picture</label>
+         </div>
+         <div class="col-sm-2">
+          
+         </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-2">
+         <input type="text" class="form-control" [(ngModel)]="vehicleInfo.make">
+        </div>
+         <div class="col-sm-2">
+            <input type="text" class="form-control" [(ngModel)]="vehicleInfo.model">
+         </div>
+         <div class="col-sm-2">
+            <input type="text" class="form-control" [(ngModel)]="vehicleInfo.color">
+         </div>
+         <div class="col-sm-2">
+            <input type="text" class="form-control" [(ngModel)]="vehicleInfo.tagNumber">
+         </div>
+         <div class="col-sm-2">
+            <input type="file" class="form-control"  [(ngModel)]="vehicleInfo.vehiclePicture" (change)="onVechilePhotoSelected($event,'VechilePhoto')" class="file-input">          
+            <p *ngIf="selectedFileName">{{ selectedFileName }}</p>
+         </div>
+         <!-- <div class="col-sm-2">
+            <textarea cols="12" rows="3"  class="form-control" [(ngModel)]="parkingdetails.Additionalinfo"></textarea>
+         </div> -->
+      </div>
+    </div>
+  
+    <div class="col-sm-12 row">
+      <div class="col-sm-6">
+        <div class="section">
+          <h3 class=""> Location   &nbsp;<i class="ti ti-location"></i> </h3>
+       
+          <br>
+          <div class="row">
+            <div class="col-sm-6">
+              <label class="label" >Parking Area</label>
+            </div>
+             <div class="col-sm-6">
+                <label class="label">Parking Picture</label>
+             </div>
+            
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-sm-6">
+             <input type="text" class="form-control" [(ngModel)]="parkingLocation.area">
+            </div>
+            <div class="col-sm-6">
+             <input type="file" class="form-control"  [(ngModel)]="parkingLocation.parkingPicture" (change)="onVechilePhotoSelected($event,'ParkingArea')" class="file-input">          
+           
+          </div>
+           
+          </div>
+    
+        </div>
+    
+      </div>
+      <div class="col-sm-6">
+        <div class="section">
+          <h3 class="">Duration of Parking &nbsp;<i class="ti ti-clipboard"></i>  </h3> 
+            <br>
+            <div class="row">
+              <div class="col-sm-6">
+                <label class="label" >Start Date&Time</label>
+              </div>
+               <div class="col-sm-6">
+                  <label class="label">End Date&Time</label>
+               </div>
+              
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-6">
+               <input type="datetime-local" class="form-control" [(ngModel)]="durationOfParking.startDateTime">
+              </div>
+               <div class="col-sm-6">
+                  <input type="datetime-local" class="form-control" [(ngModel)]="durationOfParking.endDateTime">
+               </div>
+             
+            </div>
+            </div>
+      </div>
+    </div>
+
+ 
+
+   
+  
+    <div class="section" hidden>
+      <h2 class="text-right">Towing Details</h2>
+      <p>Information about towing if applicable.</p>
+    </div>
+  
+    <div class="section" hidden>
+      <h2 class="text-right">Status</h2>
+      <p>Current status of the vehicle or situation.</p>
+    </div>
+  </div>
+  
+  <div class="content  row">
+  <!-- <button class="btn btn-primary" *appHasRole="'Customer'" type="submit" (click)="SAVE()">Save </button>
+    &nbsp; <button *appHasRole="'Customer'" class="btn btn-primary" type="submit"(click)="RequestForParking()">Request for Parking </button>
+    &nbsp;  <button *appHasRole="'HOA'"  class="btn btn-primary"type="submit"(click)="Approve()">Approve</button>
+    &nbsp; <button *appHasRole="'HOA'"  class="btn btn-primary" type="submit"(click)="Reject()">Reject</button>
+    &nbsp; <button  *appHasRole="'HOA'" class="btn btn-primary" type="submit"(click)="RequestForTowing()">Request for Towing</button>
+    &nbsp;  <button *appHasRole="'Towing Company'" class="btn btn-primary" type="submit"(click)="Tow()">Tow</button>
+    &nbsp; <button *appHasRole="'Customer'"  class="btn btn-primary" type="submit"(click)="RequestForDelivery()">Request for Delivery</button>
+    &nbsp; <button  *appHasRole="'HOA'" class="btn btn-primary" type="submit"(click)="Delivered()">Delivered </button> -->
+
+<section class="button-container ">
+    <!-- Save button, always visible to Customer -->
+<section *appHasRole="'Customer'">
+   <button class="btn btn-primary" type="submit" (click)="SAVE()"
+   *ngIf="isButtonVisible(parkingdetails.status, ['','Draft'])">
+   Draft
+</button>
+</section>
+ <!-- Request for Parking button -->
+ <section *appHasRole="'Customer'">
+   <button class="btn btn-primary" type="submit" (click)="RequestForParking()"
+     *ngIf="isButtonVisible(parkingdetails.status, ['Draft'])">
+     Request for Parking
+   </button>
+ </section>
+ 
+ <!-- Approve button -->
+ <section *appHasRole="'HOA'">
+   <button class="btn btn-primary" type="submit" (click)="Approve()"
+     *ngIf="isButtonVisible(parkingdetails.status, ['New Parking'])">
+     Approve
+   </button>
+ </section>
+ 
+ <!-- Reject button -->
+ <section *appHasRole="'HOA'">
+   <button class="btn btn-primary" type="submit" (click)="Reject()"
+     *ngIf="isButtonVisible(parkingdetails.status, ['New Parking'])">
+     Reject
+   </button>
+ </section>
+ 
+ <!-- Request for Towing button -->
+ <section *appHasRole="'HOA'">
+   <button class="btn btn-primary" type="submit" (click)="RequestForTowing()"
+     *ngIf="isButtonVisible(parkingdetails.status, ['Approved','Rejected'])">
+     Request for Towing
+   </button>
+ </section>
+ 
+ <!-- Tow button -->
+ <section *appHasRole="'Towing Company'">
+   <button class="btn btn-primary" type="submit" (click)="Tow()"
+     *ngIf="isButtonVisible(parkingdetails.status, ['Towing Request Inprogress'])">
+     Tow
+   </button>
+ </section>
+ 
+ <!-- Request for Delivery button -->
+ <section *appHasRole="'Customer'">
+   <button class="btn btn-primary" type="submit" (click)="RequestForDelivery()"
+     *ngIf="isButtonVisible(parkingdetails.status, ['Towed'])">
+     Request for Delivery
+   </button>
+ </section>
+ 
+ <!-- Delivered button -->
+ <section *appHasRole="'Towing Company'">
+   <button class="btn btn-primary" type="submit" (click)="Delivered()"
+     *ngIf="isButtonVisible(parkingdetails.status, ['Requested for Delivery'])">
+     Delivered
+   </button>
+ </section>
+ 
+</section>
+
+
+
+</div>
+
+
+
+<!-- Popup HTML -->
+<div class="popup" *ngIf="isVisible">
+   <div class="popup-content">
+     <span class="close-btn" (click)="closePopup()">&times;</span>
+         <div>
+            <ag-grid-angular class="ag-theme-quartz-auto-dark" style="height: 300px;width:100%" [rowData]="rowData"
+            [columnDefs]="colDefs"
+            [defaultColDef]="defaultColDef"
+            (gridReady)="onGridReady($event)"
+            [pagination]="true"
+            [paginationPageSizeSelector]="[1,5,10,50,100]"
+            (selectionChanged)="onSelectionChanged($event)"
+            [gridOptions]="gridOptions"
+           >
+         </ag-grid-angular>
+         </div>
+   </div>
+ </div>
+ 

@@ -1,0 +1,16 @@
+﻿using ParkingModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL.Contract
+{
+    public interface ILogInDAL
+    {
+        public string SignIn(LogInModel newuser);
+        public string IsUserCredentialsareValid(LogInModel logindata);
+
+    }
+}

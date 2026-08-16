@@ -1,0 +1,346 @@
+[
+  {
+    "ContainingType": "ParkingAPI.Controllers.AuthServiceController",
+    "Method": "Authenticate",
+    "RelativePath": "api/AuthService/Authenticate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.LayoutController",
+    "Method": "GetLoggedInUserDetails",
+    "RelativePath": "api/Layout/GetLoggedInUserDetails/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.LayoutController",
+    "Method": "GetMenu",
+    "RelativePath": "api/Layout/GetMenu/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.LogInController",
+    "Method": "SignIn",
+    "RelativePath": "api/LogIn/SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logindata",
+        "Type": "ParkingModel.LogInModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "DeleteVechileDetails",
+    "RelativePath": "api/MyProfile/DeleteVechileDetails/{vehicleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "GetAllVehicleDetails",
+    "RelativePath": "api/MyProfile/GetAllVehicleDetails/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "GetUserProfileDetails",
+    "RelativePath": "api/MyProfile/GetUserProfileDetails/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "GetVehicleDetails",
+    "RelativePath": "api/MyProfile/GetVehicleDetails/{vehicleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "HouseOwnerAssociationDetailsUpdate",
+    "RelativePath": "api/MyProfile/HouseOwnerAssociationDetailsUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hoaModel",
+        "Type": "ParkingModel.HouseOwnerAssociationDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "HouseOwnerDetailsUpdate",
+    "RelativePath": "api/MyProfile/HouseOwnerDetailsUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "houseOwner",
+        "Type": "ParkingModel.HouseOwnerDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "MyProfileHouseOwnerVechileDetailsSave",
+    "RelativePath": "api/MyProfile/MyProfileHouseOwnerVechileDetailsSave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vechileDetail",
+        "Type": "ParkingModel.VechileDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "MyProfileUpdate",
+    "RelativePath": "api/MyProfile/MyProfileUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "ParkingModel.MyProfileUpdateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.MyProfileController",
+    "Method": "TowingCompanyDetailsUpdate",
+    "RelativePath": "api/MyProfile/TowingCompanyDetailsUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "towingCompanyDetails",
+        "Type": "ParkingModel.TowingCompanyDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.OTPController",
+    "Method": "ValidateOTP",
+    "RelativePath": "api/OTP/ValidateOTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "otpdata",
+        "Type": "ParkingModel.OTPModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.ParkingController",
+    "Method": "GetAllHOAAssignments",
+    "RelativePath": "api/Parking/GetAllHOAAssignments/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.ParkingController",
+    "Method": "ParkingRequestGetAll",
+    "RelativePath": "api/Parking/GetAllParkingRequest/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.ParkingController",
+    "Method": "GetAllTowingCompanyAssignments",
+    "RelativePath": "api/Parking/GetAllTowingCompanyAssignments/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.ParkingController",
+    "Method": "ParkingRequestGet",
+    "RelativePath": "api/Parking/GetParkingRequest/{ParkingRequestId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ParkingRequestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.ParkingController",
+    "Method": "ParkingRequestWorkFlowUpdate",
+    "RelativePath": "api/Parking/ParkingRequestWorkFlowUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parkingRequest",
+        "Type": "ParkingModel.ParkingRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.SignUpController",
+    "Method": "LoadHOAMaster",
+    "RelativePath": "api/SignUp/LoadHOAMaster",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.SignUpController",
+    "Method": "NewUserAccountCreation",
+    "RelativePath": "api/SignUp/NewUserAccountCreation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newuser",
+        "Type": "ParkingModel.SignUpModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ParkingAPI.WeatherForecast, ParkingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+C:\Git\ParkingAPI\ParkingModel\bin\Debug\net8.0\ParkingModel.deps.json
+C:\Git\ParkingAPI\ParkingModel\bin\Debug\net8.0\ParkingModel.dll
+C:\Git\ParkingAPI\ParkingModel\bin\Debug\net8.0\ParkingModel.pdb
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.AssemblyInfoInputs.cache
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.AssemblyInfo.cs
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.csproj.CoreCompileInputs.cache
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.sourcelink.json
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.dll
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\refint\ParkingModel.dll
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.pdb
+C:\Git\ParkingAPI\ParkingModel\obj\Debug\net8.0\ref\ParkingModel.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\bin\Debug\net8.0\ParkingModel.deps.json
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\bin\Debug\net8.0\ParkingModel.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\bin\Debug\net8.0\ParkingModel.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.GeneratedMSBuildEditorConfig.editorconfig
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.AssemblyInfoInputs.cache
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.AssemblyInfo.cs
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.csproj.CoreCompileInputs.cache
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.sourcelink.json
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\refint\ParkingModel.dll
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\ParkingModel.pdb
+F:\Product development\SHV_Enterprise_Parking_Solution\ParkingAPI\ParkingModel\obj\Debug\net8.0\ref\ParkingModel.dll
